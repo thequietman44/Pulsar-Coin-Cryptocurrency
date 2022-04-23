@@ -68,6 +68,8 @@
 #include <zmq/zmqnotificationinterface.h>
 #endif
 
+using namespace boost::placeholders;
+
 static const bool DEFAULT_PROXYRANDOMIZE = true;
 static const bool DEFAULT_REST_ENABLE = false;
 static const bool DEFAULT_STOPAFTERBLOCKIMPORT = false;
