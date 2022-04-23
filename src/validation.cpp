@@ -50,6 +50,8 @@
 #include <boost/algorithm/string/join.hpp>
 #include <boost/thread.hpp>
 
+using namespace boost::placeholders;
+
 #if defined(NDEBUG)
 # error "Pulsar cannot be compiled without assertions."
 #endif

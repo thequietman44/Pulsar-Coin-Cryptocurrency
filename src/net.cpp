@@ -63,6 +63,8 @@
 #endif
 #endif
 
+using namespace boost::placeholders;
+
 /** Used to pass flags to the Bind() function */
 enum BindFlags {
     BF_NONE         = 0,
